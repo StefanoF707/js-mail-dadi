@@ -3,15 +3,30 @@
      <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
           <meta charset="utf-8">
+          <link rel="stylesheet" href="css/style.css">
           <title>Gioco dei dadi</title>
      </head>
      <body>
 
-          <h2>human player: <span id="human"></span></h2>
+          <div class="container_top">
+               <div class="player_container">
+                    <h2>human player</h2>
+                    <span id="human" class="result"></span>
+               </div>
 
-          <h2>computer player: <span id="computer"></span></h2>
+               <div class="player_container">
+                    <h2>computer player</h2>
+                    <span id="computer" class="result"></span>
+               </div>
+          </div>
 
-          <h2>Il vincitore è: <span id="winner"></span></h2>
+          <div class="container_bottom">
+               <div class="winner_container">
+                    <h2>The winner is</h2>
+                    <span id="winner" class="result"></span>
+               </div>
+          </div>
+
 
           <script src="js/gioco_dei_dadi.js" charset="utf-8"></script>
 

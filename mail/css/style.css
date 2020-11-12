@@ -1,0 +1,25 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background: #8692ff;
+}
+
+h2 {
+     font-size: 100px;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     text-transform: uppercase;
+     text-align: center;
+}
+h2#access-allowed {
+     color: #07b007;
+}
+h2#access-denied {
+     color: #ff0000;
+}

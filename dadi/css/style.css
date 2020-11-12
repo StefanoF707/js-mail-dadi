@@ -1,0 +1,48 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+     background: #595656;
+}
+
+h2 {
+     font-size: 30px;
+     text-transform: uppercase;
+}
+
+.container_top {
+     display: flex;
+     height: 60vh;
+     border: 1px solid #000;
+}
+.container_bottom {
+     height: 40vh;
+     color: #000088;
+}
+
+.container_top > .player_container {
+     width: 50%;
+     border: 1px solid #000;
+     color: #f00;
+}
+.player_container:first-child {
+     color: #06ac06;
+}
+
+.player_container,
+.winner_container {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-around;
+     height: 100%;
+}
+
+.result {
+     font-size: 40px;
+     text-transform: uppercase;
+     font-family: arial;
+}

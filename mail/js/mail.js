@@ -18,7 +18,7 @@ for (var i = 0; i < mailList.length; i++) {
 
 // se l'email è nella lista consentire l'accesso, altrimenti negare
 if (result === true) {
-     document.getElementById("access").innerHTML = "Accesso consentito!";
+     document.getElementById("access-allowed").innerHTML = "Accesso <br> consentito!";
 } else {
-     document.getElementById("access").innerHTML = "Accesso negato!";
+     document.getElementById("access-denied").innerHTML = "Accesso <br> negato!";
 }
